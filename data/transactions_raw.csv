@@ -1,0 +1,22 @@
+transaction_id,user_id,transaction_date,amount,currency,status,payment_method,country,created_at,source_system
+1001,U001,2024-01-05,120.50,USD,approved,credit_card,CL,2024-01-05 10:15:00,core
+1002,U002,05/01/2024,-45.00,USD,approved,debit_card,CL,2024-01-05 10:17:00,core
+1003,U003,2024-01-06,9999.99,USD,approved,credit_card,US,2024-01-06 08:01:00,partner_a
+1004,U004,2024-01-06,15,EUR,pending,transfer,ES,2024-01-06 09:30:00,partner_b
+1004,U004,2024-01-06,15,EUR,pending,transfer,ES,2024-01-06 09:30:00,partner_b
+1005,,2024-01-07,200,USD,approved,credit_card,CL,2024-01-07 11:00:00,core
+1006,U006,2024-01-07,0,USD,approved,cash,CL,2024-01-07 11:05:00,core
+1007,U007,2024/01/08,75.25,USD,failed,credit_card,CL,2024-01-08 12:00:00,partner_a
+1008,U008,2024-13-01,60,USD,approved,debit_card,CL,2024-01-08 12:05:00,partner_a
+1009,U009,2024-01-08,5000,USD,approved,crypto,CL,2024-01-08 12:10:00,unknown
+1010,U010,2024-01-09,30,CLP,approved,credit_card,CL,2024-01-09 09:00:00,core
+1011,U011,2024-01-09,abc,USD,approved,credit_card,CL,2024-01-09 09:05:00,core
+1012,U012,2024-01-09,85,USD,reversed,debit_card,CL,,core
+1013,U013,2024-01-10,120,USD,approved,credit_card,AR,2024-01-10 14:00:00,partner_b
+1014,U014,2024-01-10,120,USD,APPROVED,credit_card,CL,2024-01-10 14:05:00,core
+1015,U015,2024-01-11,99999,USD,approved,credit_card,CL,2024-01-11 15:00:00,partner_a
+1016,U016,2024-01-11,45,USD,approved,,CL,2024-01-11 15:05:00,core
+1017,U017,,60,USD,approved,credit_card,CL,2024-01-11 15:10:00,core
+1018,U018,2024-01-12,70,USD,approved,credit_card,CL,2024-01-12 10:00:00,core
+1019,U019,2024-01-12,-10,USD,failed,debit_card,CL,2024-01-12 10:05:00,partner_b
+1020,U020,2024-01-12,150,USD,approved,credit_card,CL,invalid_date,core
