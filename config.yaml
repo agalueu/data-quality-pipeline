@@ -1,0 +1,9 @@
+outliers:
+  method: IQR
+  multiplier: 1.5
+
+paths:
+  input_data: data/transactions_raw.csv
+  output_reporting: outputs/transactions_reporting.csv
+  output_anomalies: outputs/transactions_anomalies.csv
+  output_summary: outputs/data_quality_summary.csv
