@@ -1,0 +1,6 @@
+metric,value
+total_rows,21
+valid_rows,10
+invalid_rows,11
+duplicates,2
+amount_outliers,2

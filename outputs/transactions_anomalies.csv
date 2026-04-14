@@ -1,0 +1,14 @@
+transaction_id,user_id,transaction_date,amount,currency,status,payment_method,country,created_at,source_system,amount_numeric,transaction_date_parsed,created_at_parsed,status_normalized,invalid_tx_id,invalid_user,invalid_tx_date,invalid_amount,invalid_created,is_duplicate,rule_user_valid,rule_amount_valid,rule_tx_date_valid,rule_created_valid,rule_not_duplicate,rule_tx_id_valid,is_valid,flag_amount_outlier
+1002,U002,05/01/2024,-45.00,USD,approved,debit_card,CL,2024-01-05 10:17:00,core,-45.0,,2024-01-05 10:17:00,approved,False,False,True,True,False,False,True,False,False,True,True,True,False,False
+1003,U003,2024-01-06,9999.99,USD,approved,credit_card,US,2024-01-06 08:01:00,partner_a,9999.99,2024-01-06,2024-01-06 08:01:00,approved,False,False,False,False,False,False,True,True,True,True,True,True,True,True
+1004,U004,2024-01-06,15,EUR,pending,transfer,ES,2024-01-06 09:30:00,partner_b,15.0,2024-01-06,2024-01-06 09:30:00,pending,False,False,False,False,False,True,True,True,True,True,False,True,False,False
+1004,U004,2024-01-06,15,EUR,pending,transfer,ES,2024-01-06 09:30:00,partner_b,15.0,2024-01-06,2024-01-06 09:30:00,pending,False,False,False,False,False,True,True,True,True,True,False,True,False,False
+1005,,2024-01-07,200,USD,approved,credit_card,CL,2024-01-07 11:00:00,core,200.0,2024-01-07,2024-01-07 11:00:00,approved,False,True,False,False,False,False,False,True,True,True,True,True,False,False
+1006,U006,2024-01-07,0,USD,approved,cash,CL,2024-01-07 11:05:00,core,0.0,2024-01-07,2024-01-07 11:05:00,approved,False,False,False,True,False,False,True,False,True,True,True,True,False,False
+1007,U007,2024/01/08,75.25,USD,failed,credit_card,CL,2024-01-08 12:00:00,partner_a,75.25,,2024-01-08 12:00:00,failed,False,False,True,False,False,False,True,True,False,True,True,True,False,False
+1008,U008,2024-13-01,60,USD,approved,debit_card,CL,2024-01-08 12:05:00,partner_a,60.0,,2024-01-08 12:05:00,approved,False,False,True,False,False,False,True,True,False,True,True,True,False,False
+1011,U011,2024-01-09,abc,USD,approved,credit_card,CL,2024-01-09 09:05:00,core,,2024-01-09,2024-01-09 09:05:00,approved,False,False,False,True,False,False,True,False,True,True,True,True,False,False
+1012,U012,2024-01-09,85,USD,reversed,debit_card,CL,,core,85.0,2024-01-09,,reversed,False,False,False,False,True,False,True,True,True,False,True,True,False,False
+1015,U015,2024-01-11,99999,USD,approved,credit_card,CL,2024-01-11 15:00:00,partner_a,99999.0,2024-01-11,2024-01-11 15:00:00,approved,False,False,False,False,False,False,True,True,True,True,True,True,True,True
+1017,U017,,60,USD,approved,credit_card,CL,2024-01-11 15:10:00,core,60.0,,2024-01-11 15:10:00,approved,False,False,True,False,False,False,True,True,False,True,True,True,False,False
+1020,U020,2024-01-12,150,USD,approved,credit_card,CL,invalid_date,core,150.0,2024-01-12,,approved,False,False,False,False,True,False,True,True,True,False,True,True,False,False
